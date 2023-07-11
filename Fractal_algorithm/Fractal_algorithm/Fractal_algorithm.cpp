@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
 	initgraph(WIDTH,HEIGHT,SHOWCONSOLE);
+	setlinecolor(LIGHTBLUE);
 	Map m(3);
 	system("pause");
 	return 0;
